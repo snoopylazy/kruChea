@@ -286,6 +286,7 @@ const updateChartData = () => {
     };
 };
 
+
 // Fixed setChartOptions function - improved responsiveness and tooltip
 const setChartOptions = () => {
     return {
