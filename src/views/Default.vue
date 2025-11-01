@@ -437,7 +437,7 @@ onUnmounted(() => {
           </div>
 
           <!-- Permission - Use stable permissions cache -->
-          <div v-if="permissionsCache.isAdminOrSuperAdmin">
+          <!-- <div v-if="permissionsCache.isAdminOrSuperAdmin">
             <h2 class="text-sm font-semibold mb-2 mt-2 text-left text-emerald-600">{{ $t('Permission User') }}</h2>
             <router-link to="/permission" exact-active-class="bg-gradient-to-br from-primary to-primary text-white"
               class="group flex items-center justify-between p-2 rounded-md transition-all duration-300 ease-in-out
@@ -451,8 +451,8 @@ onUnmounted(() => {
                 <i v-if="isExactActive" class="fa-solid fa-chevron-right text-xs text-white"></i>
               </transition>
             </router-link>
-          </div>
-        </nav>
+          </div> -->
+        </nav> 
 
         <!-- Loading state for sidebar -->
         <div v-else-if="openSidebar && isLoadingPermissions" class="p-4 text-center">
