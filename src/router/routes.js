@@ -29,9 +29,6 @@ import ReturnAsset from "../views/reports/reportTransactionAssets.vue";
 import TransferHistory from "../views/reports/reportTransferStock.vue";
 import StockTransfer from "../views/stockTransfer/stockTransfer.vue";
 
-
-
-
 const routes = [
   {
     name: "Default",
