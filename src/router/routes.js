@@ -31,6 +31,7 @@ import StockTransfer from "../views/stockTransfer/stockTransfer.vue";
 
 
 
+
 const routes = [
   {
     name: "Default",
