@@ -2,7 +2,6 @@
   <div>
     <router-view></router-view>
   </div>
-  <h1>new edit</h1>
 </template>
 
 <style>
