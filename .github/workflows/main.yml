@@ -1,0 +1,37 @@
+name: Node.js CI/CD # The name of your workflow
+
+on:
+  push:
+    branches: [main] # Trigger on pushes to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # The operating system the job runs on
+
+    steps:
+      - uses: actions/checkout@v4 # Step to check out your repository code
+      - name: Use Node.js
+        uses: actions/setup-node@v4 # Step to set up Node.js environment
+        with:
+          node-version: '20.x' # Specify the desired Node.js version
+          cache: 'npm' # Caches dependencies to speed up subsequent runs
+      - name: Install dependencies
+        run: npm install # Command to install project dependencies
+      - name: Build project
+        run: npm run build # Command to run your project's build script
+      - name: show dir
+        run: echo $GITHUB_WORKSPACE/dist
+      - name: Show build files
+        run: |
+          pwd
+          ls -la
+          ls -la dist
+
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0 # Use a specific version of the action
+        with:
+          server: ftpupload.net # Replace with your FTP server address
+          username: if0_40776658 # Refers to the secret you created
+          password: X2ywl7KgYd # Refers to the secret you created
+          local-dir: './dist/' # Optional: specify a subdirectory to deploy from
+          server-dir: './htdocs/' # Optional: specify a subdirectory on the server
