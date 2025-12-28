@@ -98,7 +98,7 @@ const handleLogin = async () => {
       showSplash.value = false;
       isPermissionLogin.value = true;
       isPending.value = false;
-      errorMessage.value = "Account is not active. Please contact the administrator.";
+      errorMessage.value = "Account is not active. Please contact the administrator or telegram @ambel_support for assistance.";
       showErrorMessage.value = true;
       errorAudio.play();
       return;
