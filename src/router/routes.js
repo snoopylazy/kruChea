@@ -2,32 +2,32 @@ import { isAuthenticated } from "@/composable/checkAuthentication";
 import { useUserPermission } from "@/composable/userPermission";
 import { useBranchStore } from "@/store/branchStore";
 import { createRouter, createWebHistory } from "vue-router";
-import ApproveFormMobile from "../components/Approve-Mobile.vue";
-import OperationAssetReturnMobile from "../components/CompanyAssetTransactionMobile.vue";
-import OperationAssetReturn from "../components/CompanyAssetTransactionReturn.vue";
-import CopyAssetFormMobile from "../components/CopyAssetsForm-Mobile.vue";
-import CreateAssetFormMobile from "../components/CreateAssetForm-Mobile.vue";
-import CreateCategoryFormMobile from "../components/CreateCategoryForm-Mobile.vue";
-import CreateTransactionAssetsFormMobile from "../components/CreateTransactionAssetsForm-Moblie.vue";
-import Profile from "../components/Profile.vue";
-import PurchaseAssetDetailMobile from "../components/Purchase-Assets-Detail-Mobile.vue";
-import PurchaseAssetsFormMobile from "../components/Purchase-Assets_Form-Mobile.vue";
-import PurchaseAssetHistoryDetailMobile from "../components/PurchaseAssetHistoryDetail-Mobile.vue";
-import StockTransferDetailMobile from "../components/StockTransferDetail-Mobile.vue";
-import CreateStockTransferFormMobile from "../components/StockTransferForm-Mobile.vue";
-import Dashboard from "../views/dashboard/index.vue";
-import DashboardMobile from "../views/Mobile/dashboard/index.vue";
-import Permission from "../views/permission/Permission.vue";
-import Category from "../views/products/Category.vue";
-import OperationAssets from "../views/products/OperationProducts.vue";
-import CompanyAsset from "../views/products/ProductList.vue";
-import PurchaseAssets from "../views/purchaseAssets/purchaseAssets.vue";
-import PurchaseAssetsHistory from "../views/purchaseAssetsHistory/purchaseAssetsHistory.vue";
-import ReportAsset from "../views/reports/reportAssets.vue";
-import HistoryPurchase from "../views/reports/reportPurchaseHistroy.vue";
-import ReturnAsset from "../views/reports/reportTransactionAssets.vue";
-import TransferHistory from "../views/reports/reportTransferStock.vue";
-import StockTransfer from "../views/stockTransfer/stockTransfer.vue";
+import ApproveFormMobile from "@/components/Approve-Mobile.vue";
+import OperationAssetReturnMobile from "@/components/CompanyAssetTransactionMobile.vue";
+import OperationAssetReturn from "@/components/CompanyAssetTransactionReturn.vue";
+import CopyAssetFormMobile from "@/components/CopyAssetsForm-Mobile.vue";
+import CreateAssetFormMobile from "@/components/CreateAssetForm-Mobile.vue";
+import CreateCategoryFormMobile from "@/components/CreateCategoryForm-Mobile.vue";
+import CreateTransactionAssetsFormMobile from "@/components/CreateTransactionAssetsForm-Moblie.vue";
+import Profile from "@/components/Profile.vue";
+import PurchaseAssetDetailMobile from "@/components/Purchase-Assets-Detail-Mobile.vue";
+import PurchaseAssetsFormMobile from "@/components/Purchase-Assets_Form-Mobile.vue";
+import PurchaseAssetHistoryDetailMobile from "@/components/PurchaseAssetHistoryDetail-Mobile.vue";
+import StockTransferDetailMobile from "@/components/StockTransferDetail-Mobile.vue";
+import CreateStockTransferFormMobile from "@/components/StockTransferForm-Mobile.vue";
+import Dashboard from "@/views/dashboard/index.vue";
+import DashboardMobile from "@/views/Mobile/dashboard/index.vue";
+import Permission from "@/views/permission/Permission.vue";
+import Category from "@/views/products/Category.vue";
+import OperationAssets from "@/views/products/OperationProducts.vue";
+import CompanyAsset from "@/views/products/ProductList.vue";
+import PurchaseAssets from "@/views/purchaseAssets/purchaseAssets.vue";
+import PurchaseAssetsHistory from "@/views/purchaseAssetsHistory/purchaseAssetsHistory.vue";
+import ReportAsset from "@/views/reports/reportAssets.vue";
+import HistoryPurchase from "@/views/reports/reportPurchaseHistroy.vue";
+import ReturnAsset from "@/views/reports/reportTransactionAssets.vue";
+import TransferHistory from "@/views/reports/reportTransferStock.vue";
+import StockTransfer from "@/views/stockTransfer/stockTransfer.vue";
 
 
 
@@ -35,7 +35,7 @@ const routes = [
   {
     name: "Default",
     path: "/",
-    component: () => import("../views/Default.vue"),
+    component: () => import("@/views/Default.vue"),
     children: [
       {
         name: "dashboard",
@@ -217,12 +217,12 @@ const routes = [
   },
   {
     path: "/login",
-    component: () => import("../views/Login.vue"),
+    component: () => import("@/views/Login.vue"),
     name: "Login",
   },
   {
     path: "/notFound",
-    component: () => import("../views/Not-Found.vue"),
+    component: () => import("@/views/Not-Found.vue"),
     name: "notFound",
   },
   // Catch-all route for undefined pages

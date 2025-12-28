@@ -7,7 +7,7 @@ import { useUserPermission } from '@/composable/userPermission';
 import { useBranchStore } from '@/store/branchStore';
 import { getDeviceDetails } from "@/utils/getDeviceDetails";
 import axios from "axios";
-import { toast } from 'primevue/toast';
+// import { toast } from 'primevue/toast';
 import { v4 as uuidv4 } from "uuid";
 import { reactive, ref, watch } from 'vue';
 import { useRouter } from 'vue-router';
