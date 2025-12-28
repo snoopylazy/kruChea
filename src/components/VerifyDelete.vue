@@ -5,9 +5,11 @@
                 <h3>{{ $t('Confirmation Delete') }}
                 </h3>
             </div>
+            
             <div class="p-6 text-center">
                 <p>{{$t('Are you really want to delete this data?')}}</p>
             </div>
+            
             <div class="p-4 flex justify-between">
                 <button @click="cancel"
                     class="px-4 py-2 border-2 border-white text-white rounded hover:bg-emerald-600 transition">
