@@ -199,7 +199,7 @@ onMounted(() => {
               placeholder="YYYY-MM-DD"
             />
           </div>
-          <i class="fa-solid fa-arrows-left-right text-emerald-500 my-auto mx-1 mt-10"></i>
+          <i class="fa-solid fa-arrows-left-right text-red-500 my-auto mx-1 mt-10"></i>
           <div class="flex flex-col w-full">
             <span class="w-auto text-sm text-gray-700">{{$t('End Date')}} ៖</span>
             <DatePicker v-model="endDate"
@@ -242,8 +242,8 @@ onMounted(() => {
       </div>
 
       <table ref="tableRef" class="w-full mt-3 border-collapse" :class="{ 'opacity-50': isLoading == true }">
-        <thead class="bg-gray-100 text-xs">
-          <tr class="border border-gray-400">
+        <thead class="bg-gray-200 text-xs">
+          <tr class="border border-gray-600">
             <th class="border border-gray-300 p-2">ID</th>
             <!-- <th class="border border-gray-300 p-2">Asset ID</th> -->
             <th class="border border-gray-300 p-2">{{$t('Asset Name')}}</th>
