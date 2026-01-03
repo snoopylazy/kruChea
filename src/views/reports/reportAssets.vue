@@ -199,7 +199,7 @@ onMounted(() => {
               placeholder="YYYY-MM-DD"
             />
           </div>
-          <i class="fa-solid fa-arrows-left-right text-emerald-500 my-auto mx-1 mt-10"></i>
+          <i class="fa-solid fa-arrows-left-right text-red-500 my-auto mx-1 mt-10"></i>
           <div class="flex flex-col w-full">
             <span class="w-auto text-sm text-gray-700">{{$t('End Date')}} ៖</span>
             <DatePicker v-model="endDate"
