@@ -247,7 +247,7 @@ onMounted(async () => {
         </div>
 
         <footer>
-            <div class="container mx-auto py-4">
+            <div class="container mx-auto py-3">
                 <p class="text-center text-gray-600 text-sm">
                     &copy; Powered by Phors_Stephen - version-0.1.2.
                 </p>
