@@ -485,7 +485,7 @@ onBeforeUnmount(() => {
                 <div class="relative w-full">
                     <input v-model="searchQuery" type="text" :placeholder="$t('Search by Name...')"
                         class="p-2 w-full border border-gray-300 rounded-md focus:ring-2 focus:ring-emerald-400 outline-none pl-3 pr-10 hover:border-emerald-500">
-                    <span class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500">
+                    <span class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-600">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </span>
                 </div>

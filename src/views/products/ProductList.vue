@@ -742,7 +742,7 @@ onUnmounted(() => {
                     <!-- Category Dropdown -->
                     <div>
                         <label class="block text-xs text-gray-700 text-left p-1">{{ $t('Category') }} <span
-                                class="text-red-500">*</span></label>
+                                class="text-red-600">*</span></label>
                         <Select v-model="selectedCategory" :options="categoryItems" optionLabel="name"
                             class="w-full text-left" :placeholder="$t('Select category')" />
                     </div>
