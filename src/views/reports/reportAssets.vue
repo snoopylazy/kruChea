@@ -242,8 +242,8 @@ onMounted(() => {
       </div>
 
       <table ref="tableRef" class="w-full mt-3 border-collapse" :class="{ 'opacity-50': isLoading == true }">
-        <thead class="bg-gray-100 text-xs">
-          <tr class="border border-gray-400">
+        <thead class="bg-gray-200 text-xs">
+          <tr class="border border-gray-600">
             <th class="border border-gray-300 p-2">ID</th>
             <!-- <th class="border border-gray-300 p-2">Asset ID</th> -->
             <th class="border border-gray-300 p-2">{{$t('Asset Name')}}</th>
