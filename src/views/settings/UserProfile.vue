@@ -29,7 +29,7 @@ const btnSave = () => {
 <template>
     <!-- Edit User -->
     <div class="p-5 w-[40%] bg-white shadow-md rounded-md m-5 font-khmer h-auto">
-        <h3 class="my-1 font-semibold">កែសម្រួលព័ត៌មានអ្នកប្រើប្រាស់</h3>
+        <h3 class="my-1 font-semibold">កែរសម្រួលព័ត៌មានអ្នកប្រើប្រាស់</h3>
         <form @submit.prevent="updateProfile">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
                 <!-- Profile Picture Section -->
