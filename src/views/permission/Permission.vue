@@ -1,4 +1,5 @@
 <script setup>
+// import
 import API_CONFIGS from '@/api/config';
 import PaginationTwo from '@/components/PaginationTwo.vue';
 import PermissionUser from '@/components/PermissionUser.vue';
@@ -154,7 +155,7 @@ onBeforeUnmount(() => {
 
 <template>
     <div class="bg-white shadow-md rounded-lg p-4 mb-4">
-        <h2 class="text-lg font-semibold mb-4  text-left">{{$t('Permission User')}}</h2>
+        <h2 class="text-lg font-semibold mb-4  text-left">{{$t('Permission User for System')}}</h2>
         <!-- Search Input -->
         <div class="w-full md:w-auto lg:w-[35%] flex items-center mr-3 ">
             <div class="relative w-full">

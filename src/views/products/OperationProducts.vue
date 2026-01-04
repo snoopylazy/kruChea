@@ -1856,7 +1856,7 @@ onBeforeUnmount(() => {
                 </div>
 
                 <div>
-                    <label class="block text-xs text-gray-700 text-left p-1">{{ $t('Noted') }}</label>
+                    <label class="block text-xs text-gray-600 text-left p-1">{{ $t('Noted') }}</label>
                     <textarea v-model="remark" class="border mt-1 border-gray-300 p-2 rounded-md w-full 
                         transition-all outline-none duration-300 ease-in-out hover:border-emerald-300"
                         :placeholder="t('Description...')"></textarea>
@@ -1867,7 +1867,7 @@ onBeforeUnmount(() => {
                 <!-- Buttons -->
                 <div class="flex justify-end space-x-2 mt-4">
                     <button type="button" @click="clearForm"
-                        class="bg-gradient-to-br from-red-400 to-red-600 text-white px-4 py-2 rounded-md hover:from-red-400 hover:to-red-500 text-sm transition-all duration-300 ease-in-out transform hover:scale-105">{{
+                        class="bg-gradient-to-br from-red-400 to-red-700 text-white px-4 py-2 rounded-md hover:from-red-400 hover:to-red-500 text-sm transition-all duration-300 ease-in-out transform hover:scale-105">{{
                             $t('Clear') }}</button>
                     <button type="submit"
                         class="bg-gradient-to-br from-emerald-400 to-emerald-600 text-white px-4 py-2 rounded-md hover:from-emerald-400 hover:to-emerald-500 text-sm transition-all duration-300 ease-in-out transform hover:scale-105">{{

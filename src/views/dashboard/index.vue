@@ -480,14 +480,14 @@ onBeforeUnmount(() => {
                 class="min-w-[250px] flex-1 max-w-xs bg-white/70 backdrop-blur-md shadow-lg rounded-3xl border border-gray-200 p-6 hover:shadow-xl transition-all duration-300">
                 <div class="flex items-center justify-between">
                     <div>
-                        <div class="text-sm font-medium text-gray-600 mb-1">{{ $t('Total Assets') }}</div>
+                        <div class="text-sm font-medium text-gray-700 mb-1">{{ $t('Total Assets') }}</div>
                         <p class="text-4xl font-bold text-gray-900 tracking-tight px-1 text-left">{{ totalAssets }}</p>
                     </div>
                     <div class="bg-emerald-100 p-3 rounded-full">
-                        <Package class="w-6 h-6 text-emerald-500" />
+                        <Package class="w-6 h-6 text-emerald-700" />
                     </div>
                 </div>
-                <div class="h-1 w-16 mt-4 rounded-full bg-emerald-400"></div>
+                <div class="h-1 w-16 mt-4 rounded-full bg-emerald-600"></div>
             </div>
 
             <!-- Asset Transaction Card -->
@@ -503,7 +503,7 @@ onBeforeUnmount(() => {
                         <Settings class="w-6 h-6 text-indigo-500" />
                     </div>
                 </div>
-                <div class="h-1 w-16 mt-4 rounded-full bg-indigo-400"></div>
+                <div class="h-1 w-16 mt-4 rounded-full bg-indigo-500"></div>
             </div>
 
             <!-- Stock Transfer Card -->
@@ -537,7 +537,7 @@ onBeforeUnmount(() => {
                         </template>
                     </div>
                     <div class="bg-rose-100 p-3 rounded-full">
-                        <Wallet class="w-6 h-6 text-rose-500" />
+                        <Wallet class="w-6 h-6 text-rose-700" />
                     </div>
                 </div>
                 <div class="h-1 w-16 mt-4 rounded-full bg-rose-400"></div>
