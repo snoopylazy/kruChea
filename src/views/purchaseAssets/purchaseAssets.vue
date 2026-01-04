@@ -531,7 +531,7 @@ const {
 
                     <div class="flex  gap-4">
                         <button @click="clearFilter"
-                            class=" my-auto bg-gradient-to-br from-red-400 to-red-700 text-white px-4 py-2 rounded-md hover:from-red-500 hover:to-red-600 text-xs transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-opacity-50">{{$t('Clear')}}</button>
+                            class=" my-auto bg-gradient-to-br from-blue-400 to-blue-600 text-black px-4 py-2 rounded-md hover:from-blue-400 hover:to-blue-600 text-xs transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-opacity-50">{{$t('Clear')}}</button>
                         <button @click="handleSearch"
                             class="my-auto bg-gradient-to-br from-emerald-400 to-emerald-700 text-white px-4 py-2 rounded-md hover:from-emerald-500 hover:to-emerald-600 text-xs transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:ring-opacity-50">{{$t('Show')}}</button>
                     </div>
