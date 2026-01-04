@@ -29,6 +29,7 @@ app.use(PrimeVue, {
   },
 });
 
+// init
 app.use(pinia);
 app.use(VueApexCharts);
 app.use(router);
